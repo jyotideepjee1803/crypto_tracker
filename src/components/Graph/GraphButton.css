@@ -1,0 +1,23 @@
+.select-button{
+    border: 1px solid gold;
+    border-radius: 5;
+    padding: 10;
+    padding-left: 20;
+    padding-right: 20;
+    font-family: "Montserrat";
+    cursor: "pointer";
+    /* background-color: selected ? "gold" : "", */
+    /* color: selected ? "black" : "", */
+    font-weight: 500;
+    width: 22%;
+}
+
+.current-selected{
+    background-color: gold;
+    color: black;
+    font-weight: 700;
+}
+.select-button:hover{ 
+    background-color: "gold";
+    color: "black";
+}

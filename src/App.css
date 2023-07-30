@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap');
+
+:root{
+  --bgcolor : #333;
+  --textcolor: #f4f4f4;
+  --navbg : #312f33;
+  --accent: #6900ff;
+  --hover: #152B40;
+  --row-bg: #26272b;
+  --shadow: #18191b;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  background-color : var(--bgcolor);
+  color: var(--textcolor);
+  font-family: 'Monsterrat', sans-serif;
+  /* minHeight: 100vh; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app{
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 65px;
+  color: white
+}
+
+
+.search{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.title-text{
+  margin-top: 40px;
+  margin-bottom: 32px;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.searchField{
+  padding-left: 16px;
+  margin-bottom: 30px;
+  width: 300px;
+  height: 50px;
+  border-radius: 4px;
+  border: none;
+  background-image: linear-gradient(-225deg,  #ac32e4 0% , #7918f2 48%,  #4801ff 100%);
+  color: #e2e2e2;
+}
+.searchField::placeholder{
+  color: #e2e2e2
+}
+
+.theme-change{
+  font-size: 30px;
+  margin-right: 20px;
+  background: var(--navbg);
+}
+
+.theme-icon{
+  background: var(--navbg);
+  cursor: pointer;
 }

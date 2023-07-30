@@ -1,0 +1,70 @@
+.container{
+  margin-bottom: 20px;
+}
+
+.data-head{
+  flex-direction: row;
+  height: 70px;
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 0px 12px var(--shadow);
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+  padding: .7rem 1rem;
+  font-weight: 700;
+}
+
+.name{
+  
+  padding-left: 10px;
+  width: 130px;
+  font-family: 'Monsterrat', sans-serif;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.symbol{
+  
+  margin-right: 20px;
+  font-family: 'Monsterrat', sans-serif;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.price{
+  
+  padding-left: 30px;
+  width: 110px;
+  font-family: 'Monsterrat', sans-serif;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.volume{
+  
+  padding-left: 50px;
+  width: 200px;
+  font-family: 'Monsterrat', sans-serif;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.marketShare{
+  
+  padding-left: 50px;
+  width: 240px;
+  font-family: 'Monsterrat', sans-serif;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.percent{
+  
+  padding-left: 10px;
+  width: 100px;
+  font-family: 'Monsterrat', sans-serif;
+  font-weight: bold;
+  font-size: larger;
+}

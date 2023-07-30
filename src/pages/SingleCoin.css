@@ -1,0 +1,79 @@
+.home-button{
+    background: #312f33;
+    position: fixed;
+    top: 20px;
+    z-index: 3;
+    margin-left: 30px;
+    
+}
+
+.home-logo{
+    background: #312f33;
+    font-size: 30px;
+}
+
+.singlecoin-details{
+    margin-top: 100px;  
+}
+
+.singlecoin{
+    display: flex;
+    align-items: center;
+    border-right: 2px solid grey;
+    flex-direction: column;
+    margin-bottom: 50px; 
+}
+.singlecoin-img {
+    height: 200px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+.singlecoin-name{
+    font-size: 5rem;
+    margin-top: 20px;
+    padding:10px;
+}
+
+.singlecoin-desc{
+    font-size: 1.3rem;
+    text-align: center;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.75;
+    letter-spacing: 0.00938em;
+    padding:10px;
+    max-width: 70%;
+}
+
+.singlecoin-statsName{
+    font-family: 'Monsterrat', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.singlecoin-stats{
+    font-family: 'Monsterrat', sans-serif;
+    font-weight: bold;
+    font-size: larger;
+}
+
+
+@media screen and (min-width: 1280px) {
+    .singlecoin-details{
+        display: flex;
+        flex-direction: row;
+    }
+    .singlecoin{
+        max-width: 30%;
+        margin-right: 50px;
+    }
+    .singlecoin-desc{
+        text-align:justify;
+        padding: 20px;
+        max-width: 100%;
+    }
+}
